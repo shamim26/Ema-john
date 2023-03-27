@@ -1,0 +1,46 @@
+.card-component {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  position: relative;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 286px;
+  margin: 7px;
+  border-radius: 8px;
+}
+.card-body {
+  margin: 12px;
+}
+.product-name {
+  margin: 10px 0;
+}
+.price {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.ratings,
+.manufacture {
+    color: #2A414F;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.btn-cart {
+  position: absolute;
+  background: #ffe0b3;
+  border: 1px solid #95a0a7;
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  padding: 12px 0;
+  bottom: 0;
+}
+.btn-cart:hover{
+    background-color: #FF9900;
+    transition: 0.3s;
+}
