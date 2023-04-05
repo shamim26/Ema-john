@@ -1,7 +1,24 @@
-.cart{
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    background-color: rgba(255, 153, 0, 0.3);
-    padding: 25px;
+.cart {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(255, 153, 0, 0.3);
+  padding: 25px;
+}
+.btn-clear-cart {
+    cursor: pointer;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #ff3030;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s ease-out;
+}
+.btn-clear-cart:hover{
+    background-color: #a22424;
+    
 }
