@@ -11,7 +11,6 @@ import Login from "./components/Login/Login";
 import customLoader from "./customLoader";
 import Checkout from "./components/Checkout/Checkout";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
