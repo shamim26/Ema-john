@@ -1,12 +1,11 @@
 import React from "react";
-import "./Login.css";
 import google from "../../images/google.svg";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const SignUp = () => {
   return (
     <div className="form-container">
-      <h1 className="form-title">Login</h1>
+      <h1 className="form-title">Sign Up</h1>
       <form>
         <div className="form-control">
           <label htmlFor="email">Email</label>
@@ -16,11 +15,17 @@ const Login = () => {
           <label htmlFor="password">Password</label>
           <input type="password" name="password" required />
         </div>
-        <input type="submit" className="btn-submit" value="Login" />
+        <div className="form-control">
+          <label htmlFor="password">Confirm Password</label>
+          <input type="password" name="confirm" required />
+        </div>
+        <input type="submit" className="btn-submit" value="Sign Up" />
 
         <p className="form-text">
-          New to Ema-john?
-          <Link to='/sign-up' style={{ color: "#FF9900" }}> Create New Account</Link>
+          Already have an account?{" "}
+          <Link to="/login" style={{ color: "#FF9900" }}>
+            Login{" "}
+          </Link>
         </p>
 
         <p className="divider">
@@ -45,4 +50,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

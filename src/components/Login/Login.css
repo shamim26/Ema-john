@@ -1,0 +1,79 @@
+.form-container {
+  width: 400px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: -12px 12px 1px #ffe0b3;
+}
+
+.form-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #2a414f;
+}
+.form-control label {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #2a414f;
+  margin: 0 0 10px 8px;
+}
+.form-control input {
+  font-size: large;
+  width: 90%;
+  padding: 13px 19px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 400;
+  width: 100%;
+  padding: 14px;
+  color: #0e161a;
+
+  background: rgba(255, 153, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: orange;
+  outline: 1px solid black;
+}
+.form-text {
+  font-size: 15px;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+.divider {
+  display: flex;
+  align-items: center;
+}
+.line {
+  flex-grow: 1;
+  width: 50%;
+  height: 1px;
+  background-color: #95a0a7;
+  border: none;
+}
+
+.btn-google {
+  font-size: 16px;
+  color: #2a414f;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+}
