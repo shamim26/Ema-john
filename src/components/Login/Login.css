@@ -15,6 +15,9 @@
   line-height: 42px;
   color: #2a414f;
 }
+.form-control {
+  position: relative;
+}
 .form-control label {
   display: block;
   font-style: normal;
@@ -31,6 +34,13 @@
   border: 1px solid #95a0a7;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  position: absolute;
+  top: 45px;
+  right: 12px;
 }
 
 .btn-submit {
@@ -60,6 +70,7 @@
 .divider {
   display: flex;
   align-items: center;
+  margin: 20px 30px;
 }
 .line {
   flex-grow: 1;

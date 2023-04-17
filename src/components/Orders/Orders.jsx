@@ -26,6 +26,7 @@ const Orders = () => {
       <div className="review">
         {cart.map((singleProducts) => (
           <ReviewItem
+           key={singleProducts.id}
             products={singleProducts}
             handleRemoveItem={handleRemoveItem}
           ></ReviewItem>
